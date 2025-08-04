@@ -3,7 +3,7 @@ const portfolioData = {
     personal: {
         name: "Nkosikhona Mlaba",
         title: "Software & DevOps Engineer",
-        logo: "Nkosikhona Mlaba",
+        logo: "NM",
         description: "I am a high-performing developer with 90%+ academic achievement and proven leadership in delivering innovative software solutions. Passionate about deployment, continuous improvement, and creating impactful technology.",
         tagline: "Built with passion"
     },
@@ -24,9 +24,8 @@ const portfolioData = {
     ],
     
     about: [
-        "I'm a dedicated <span class='highlight'>Software Developer and DevOps Engineer</span> with an exceptional academic record and a passion for creating innovative solutions. Currently pursuing my Bachelor of Commerce in Information Systems and Technology at UKZN with a <span class='highlight'>94% first semester aggregate</span>.",
-        "My journey in technology is marked by consistent excellence - from achieving <span class='highlight'>1st position</span> at WeThinkCode_ with a 90% aggregate to leading multiple successful projects. I thrive in challenging environments and excel at bringing teams together to achieve outstanding results.",
-        "What drives me most is the deployment phase of development - it's where ideas become reality, where users experience the value of our work, and where continuous improvement begins. I believe in building not just software, but experiences that make a difference."
+        "I'm a dedicated <span class='highlight'>Software and DevOps Engineer</span> with an exceptional academic record and a passion for creating innovative solutions. Currently pursuing my Bachelor of Commerce in Information Systems and Technology at UKZN with a <span class='highlight'>94% first semester aggregate</span>.",
+        "My journey in technology is marked by consistent excellence, from achieving <span class='highlight'>1st position</span> at WeThinkCode_ with a 90% aggregate to leading multiple successful projects. I thrive in challenging environments and excel at bringing teams together to achieve outstanding results.",
     ],
     
     stats: [
@@ -48,7 +47,7 @@ const portfolioData = {
             degree: "Software Development Programme",
             institution: "WeThinkCode_",
             date: "2023 - 2024",
-            grade: "90% Aggregate - 1st Position",
+            grade: "90% Aggregate",
             description: "Intensive coding bootcamp focusing on practical software development skills and industry best practices."
         }
     ],
@@ -464,7 +463,7 @@ function initParallaxEffect() {
     const hero = document.querySelector('.hero');
     window.addEventListener('scroll', () => {
         const scrolled = window.pageYOffset;
-        const parallax = scrolled * 0.5;
+        const parallax = scrolled * 0.10;
         hero.style.transform = `translateY(${parallax}px)`;
     });
 }
