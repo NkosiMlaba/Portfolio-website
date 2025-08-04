@@ -7,198 +7,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta name="keywords" content="Nkosikhona, Nkosikhona Mlaba, Mlaba, theemlaba">
-    <link rel="icon" type="image/png" href="../assets/logo.png">
-    <title>Portfolio Nkosikhona Mlaba</title>
+    <link rel="icon" type="image/png" href="../assets/about.jpeg">
+
+    <title id="page-title">Nkosikhona Mlaba - Software Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/mediaqueries.css" />
 </head>
-
 <body>
-    <nav id="desktop-nav">
+    <div class="bg-animation"></div>
+    <div class="particles" id="particles"></div>
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">NM</a>
+            <ul class="nav-links" id="nav-links">
+                <!-- Navigation JavaScript -->
+            </ul>
+            <button class="mobile-menu" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </nav>
-    
-    <nav id="hamburger-nav">
-    </nav>
-    
-    <!-- profile -->
-    <section id="profile">
-        <div class="section__text">
-            <p class="section__text__p1">Hello, my name is</p>
-            <h1 class="title">Nkosikhona Mlaba</h1>
-            <p class="section__text__p1">and I am a <br> <h3 class="title">Software and DevOps Engineer</h3></p>
-            <div class="btn-container">
-                <button class="btn btn-color-1" onclick="location.href='#contact'">
-                    Contact Info
-                </button>
-            </div>
-            <div id="socials-container">
-                <img src="../assets/linkedin_image.png" alt="My LinkedIn profile" class="icon" id="linkedin-icon"
-                    onclick="location.href='https://linkedin.com/in/nkosikhona-mlaba-1545a7273'" />
-                <img src="../assets/github_image.png" alt="My Github profile" class="icon" id="github-icon"
-                    onclick="location.href='https://github.com/NkosiMlaba'" />
-            </div>
-        </div>
-        <div class="section__pic-container">
-            <img src="../assets/about_image.jpeg" alt="Profile picture" class="about-pic" />
-        </div>
-    </section>
 
-
-
-    <!-- about me section-->
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-
-        <div class="section-container">
-            <!-- start -->
-            <div class="details-container">
-                <img src="../assets/experience.png" alt="Summary icon" class="icon" />
-                <h3>Skills</h3>
-                <div class="tech-details-container">
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>Java, Javalin <br> and Thymeleaf</h3>
-                    </div>
-
-                    
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>HTML, CSS <br> and Javascript</h3>
-                    </div>
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>Version Control</h3>
-                    </div>
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>Python</h3>
-                    </div>
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>Testing</h3>
-                    </div>
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>CI/CD</h3>
-                    </div>
-                    
-                    <div class="experience-details-item">
-                        <img src="../assets/checkmark.png"alt="Experience icon"class="icon"/>
-                        <h3>SQL</h3>
-                    </div>
-                </div>
-                    
-            </div>
-            <!-- end -->
-            <div class="details-container">
-                <img src="../assets/experience_image.png" alt="Summary icon" class="icon" />
-                <h3>Professional Summary</h3>
-                <p>
-                    I am someone who tackles the world’s problems
-                    using code & design, goes the extra mile to achieve
-                    objectives and is a problem solver at the core. 
-                    <br><br>
-                    My talents lie in my analytical skills, creativity, and ability to solve complex problems. 
-                    These abilities have consistently been reflected in my academic achievements and personal 
-                    projects, where I have demonstrated proficiency in problem solving, programming, system analysis, and innovative thinking.
-                    <br><br>
-                    
-                </p>
-            </div>
-
-            <div class="details-container">
-                <img src="../assets/education_image.png" alt="Education icon" class="icon" />
-                <h3>Achievements</h3>
-                <p>
-                    <b>WeThinkCode_ </b>- Aggregate Distinction <br>
-                    Achieved 94% aggregate for Year 1 Semester 2
-                    <br><br>
-                    <b>WeThinkCode_ </b>- Aggregate Distinction <br>
-                    Achieved 96% aggregate for Year 1 Semester 1
-                    <br><br>
-                    <b>EThekwini Municipality </b>- Certificate of Academic Achievement <br>
-                    Outstanding performance certificate 
-                    <br><br>
-                     
-                </p>
+    <section id="home" class="hero">
+        
+        
+        <div class="hero-content">
+            <h1 id="hero-name">Nkosikhona Mlaba</h1>
+            <p class="subtitle" id="hero-subtitle">Software Developer & DevOps Engineer</p>
+            <p class="description" id="hero-description">
+                High-performing developer with 90%+ academic achievement and proven leadership in delivering innovative software solutions. 
+                Passionate about deployment, continuous improvement, and creating impactful technology.
+            </p>
+            <div class="cta-buttons" id="hero-buttons">
+                <!-- Buttons JavaScript -->
             </div>
         </div>
 
+        <div class="hero-image">
+            <img src="../assets/about.jpeg">
+        </div>
+
+        
     </section>
 
-    <!-- coding projects-->
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Software Development Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="../assets/portfolio/project-2.png" alt="Project 2" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Portfolio Webisite</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/NkosiMlaba/Portfolio-website'">
-                            Github
-                        </button>
-                    </div>
+    <section id="about" class="animate-on-scroll">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <div id="profile-placeholder" style="width: 100%; height: 300px; background: linear-gradient(135deg, var(--primary), var(--ring)); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">
+                    <img src="../assets/working.jpg">
                 </div>
+            </div>
+            <div class="about-text" id="about-text">
+                <!-- About text JavaScript -->
+            </div>
+        </div>
 
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="../assets/hangman/project-1.png" alt="Project 1" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Hangman (Word guessing game)</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/NkosiMlaba/word_guessing_game'">
-                            Github
-                        </button>
-                    </div>
-                </div>
+        <div class="stats" id="stats">
+            <!-- Stats JavaScript -->
+        </div>
+    </section>
 
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="../assets/memory/memory.png" alt="Project 2" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Memory Game</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/NkosiMlaba/javascript-memory-game'">
-                            Github
-                        </button>
-                    </div>
+    <section id="education" class="animate-on-scroll">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid" id="education-grid">
+            <!-- Education cards JavaScript -->
+        </div>
+    </section>
+
+    <section id="experience" class="animate-on-scroll">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline" id="experience-timeline">
+            <!-- Timeline items JavaScript -->
+        </div>
+    </section>
+
+    <section id="projects" class="animate-on-scroll">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid" id="projects-grid">
+            <!-- Project cards JavaScript -->
+        </div>
+    </section>
+
+    <section id="skills" class="animate-on-scroll">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid" id="skills-grid">
+            <!-- Skill categories JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact" class="animate-on-scroll">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3 style="color: var(--primary); margin-bottom: 2rem;">Get In Touch</h3>
+                <div id="contact-info-items">
+                    <!-- Contact info JavaScript -->
                 </div>
-                
             </div>
 
-            <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='projects.html'">
-                    See more...
-                </button>
+            <div class="contact-form">
+                <h3 style="color: var(--primary); margin-bottom: 2rem;">Send a Message</h3>
+                <form action="https://formspree.io/f/xwpbgvag" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
             </div>
+        </div>
     </section>
 
-    <!-- Contact details-->
-    <section id="contact">
-    </section>
-
-    <!-- footer -->
     <footer>
-    </footer>
-
-    <!-- full screen -->
-    <!-- <section style="height: 0%;">
-        <div id="fullscreen">
-            <img id="fullscreen-image" src="" alt="Fullscreen Image">
+        <div class="social-links" id="social-links">
+            <!-- Social links JavaScript -->
         </div>
-    </section> -->
+        <p id="footer-copyright">&copy; 2025 Nkosikhona Mlaba. All rights reserved.</p>
+        <p style="color: var(--muted-foreground); font-size: 0.9rem; margin-top: 0.5rem;" id="footer-tagline">
+            Built with passion and precision
+        </p>
+    </footer>
     
     <script src="scripts/script.js"></script>
-    <script src="scripts/commonelements.js"></script>
 </body>
-
 </html>
