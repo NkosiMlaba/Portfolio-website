@@ -2,9 +2,9 @@
 const portfolioData = {
     personal: {
         name: "Nkosikhona Mlaba",
-        title: "Software & DevOps Engineer",
+        title: "Aspiring Software Engineer",
         logo: "NM",
-        description: "I am a high-performing developer with 90%+ academic achievement and proven leadership in delivering innovative software solutions. Passionate about deployment, continuous improvement, and creating impactful technology.",
+        description: "I build, test, and deploy software solutions. Academically, I maintain a 90% aggregate and have led teams to multiple first-place positions. I am highly adaptable, persistent, and have extraordinary problem-solving skills.",
         tagline: "Built with passion"
     },
     
@@ -24,15 +24,16 @@ const portfolioData = {
     ],
     
     about: [
-        "I'm a dedicated <span class='highlight'>Software and DevOps Engineer</span> with an exceptional academic record and a passion for creating innovative solutions. Currently pursuing my Bachelor of Commerce in Information Systems and Technology at UKZN with a <span class='highlight'>94% first semester aggregate</span>.",
-        "My journey in technology is marked by consistent excellence, from achieving <span class='highlight'>1st position</span> at WeThinkCode_ with a 90% aggregate to leading multiple successful projects. I thrive in challenging environments and excel at bringing teams together to achieve outstanding results.",
+        "I'm a dedicated <span class='highlight'>Software Engineer</span> with an exceptional academic record and a passion for creating innovative solutions.",
+        "Currently pursuing my Bachelor of Commerce in Information Systems and Technology at UKZN achieving a <span class='highlight'>94% first semester aggregate in 2025</span>.",
+        "My journey in technology has be marked by consistent excellence, from achieving <span class='highlight'>1st position</span> at WeThinkCode_ with a 90% aggregate to leading multiple successful projects.",
     ],
     
     stats: [
         { number: "90%", label: "Academic Average" },
         { number: "80%+", label: "Project Leadership Score" },
         { number: "1st", label: "Position Learner" },
-        { number: "80+", label: "Hackathon Participants Supported" }
+        { number: "110+", label: "Hackathon Participants Supported" }
     ],
     
     education: [
@@ -40,8 +41,8 @@ const portfolioData = {
             degree: "Bachelor of Commerce in Information Systems and Technology",
             institution: "University of KwaZulu-Natal (UKZN)",
             date: "2025 - Present",
-            grade: "94% First Semester Aggregate",
-            description: "Specializing in software development, systems analysis, and technology management."
+            grade: "94% First Semester Aggregate in 2025",
+            description: "Specialising in software development, systems analysis, and technology management."
         },
         {
             degree: "Software Development Programme",
@@ -57,30 +58,36 @@ const portfolioData = {
             title: "DevOps Intern",
             company: "Future Foundation",
             date: "January 2025 - Present",
-            description: "Successfully redesigned website for major company client with dark mode and responsive design. Documenting processes and managing virtual machines.",
+            description: "Led a research initiative on FIDO and BLE technology and proposed implementation for internal systems. <br>Streamlined the company's Git workflow. <br>Documented various processes, systems, and configurations. <br>Assisted the DevOps team in the maintenance of software solutions and IT infrastructure. <br>Assisted in the implementation of an RT5 ticketing system to centralise support requests. <br>Assisted in PHP & WordPress application management",
             skills: ["WordPress", "PHP", "Bootstrap", "Sass", "Docker", "Linux"]
         },
         {
             title: "System Administrator (Volunteer)",
             company: "KZN Tech Horizons",
             date: "February 2025 - Present",
-            description: "Managing IT infrastructure and leading tech support during hackathons. Successfully troubleshot hardware & software issues for 80+ participants while providing comprehensive technical support.",
+            description: "Led the tech support for the organisation's first hackathon with 80+ participants. <br>Co-led the tech support for the organisation's first Woman's hackathon with 20+ participants. <br>Managing IT infrastructure and leading tech support.",
             skills: ["Tech Support", "Troubleshooting", "Hardware Support", "Problem Solving"]
         },
         {
             title: "Academic Workshop Mentor (Volunteer)",
             company: "WeThinkCode_",
             date: "April 2024 - May 2024",
-            description: "Prepared and delivered workshop materials including slides, coding examples and tutorials. Provided ongoing support by monitoring workshops and addressing challenges encountered by peers.",
+            description: "Prepared and delivered workshop materials including slides, coding examples and tutorials. <br>Provided ongoing support by monitoring workshops and addressing challenges encountered by peers.",
             skills: ["Leadership", "Teaching", "Presentation", "Mentoring"]
         }
     ],
     
     projects: [
         {
+            title: "Medical Records System",
+            description: "A system that digitises patient records for outpatient clinics, instead of manual physical records. Eliminates 100% of the time staff spends looking for physical records. Consolidates records into an integrated information system. <br><br>Project link coming soon!",
+            skills: ["C#", "SQL Server", "Windows Forms"],
+            link: "https://github.com/NkosiMlaba"
+        },
+        {
             title: "Salon Appointment Management System",
             description: "A comprehensive system that allows both salon staff and clients to efficiently manage, save, and email appointment information. Features intuitive scheduling, automated notifications, and seamless communication.",
-            skills: ["Java", "Database", "Email API"],
+            skills: ["C#", "SQLlite", "Email API"],
             link: "https://github.com/NkosiMlaba/SalonAppointmentManagement"
         },
         {
@@ -89,12 +96,6 @@ const portfolioData = {
             skills: ["Python", "OpenCV", "Machine Learning"],
             link: "https://github.com/NkosiMlaba/Facial-Recognition-Attendance-System"
         },
-        {
-            title: "AI Resume Builder",
-            description: "A dynamic web application for creating ATS-friendly, job-specific resumes and generating tailored cover letters. Leverages AI to optimize content for specific job requirements and industries.",
-            skills: ["JavaScript", "AI Integration", "Web Development"],
-            link: "https://github.com/NkosiMlaba/Dynamic-Resume-Builder-with-AI"
-        }
     ],
     
     skills: [
