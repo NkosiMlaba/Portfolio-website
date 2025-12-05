@@ -1,6 +1,7 @@
 # Variables
 REPO1 = origin
 # git remote add main https://github.com/NkosiMlaba/NkosiMlaba.github.io
+# git remote add main https://github.com/NkosiMlaba/Portfolio-website
 REPO2 = main
 BRANCH = main
 
