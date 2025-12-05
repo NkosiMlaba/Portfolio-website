@@ -1,7 +1,7 @@
 # Minimal-Website
 An implementation of a website that contains information about me and projects I have worked on.
 
-## View the live site here: [Portfolio](https://nkosimlaba.github.io/Portfolio-website/)
+## View the live site here: [Portfolio](https://nkosimlaba.github.io)
 ![Output](program-output/image.png)
 
 

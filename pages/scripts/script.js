@@ -4,7 +4,7 @@ const portfolioData = {
         name: "Nkosikhona Mlaba",
         title: "Aspiring Software Engineer",
         logo: "NM",
-        description: "I build, test, and deploy software solutions. Academically, I maintain a 90% aggregate and have led teams to multiple first-place positions. I am highly adaptable, persistent, and have extraordinary problem-solving skills.",
+        description: "On the quest to build, test, and deploy software solutions.",
         tagline: "Built with passion"
     },
     
@@ -24,55 +24,55 @@ const portfolioData = {
     ],
     
     about: [
-        "I'm a dedicated <span class='highlight'>Software Engineer</span> with an exceptional academic record and a passion for creating innovative solutions.",
-        "Currently pursuing my Bachelor of Commerce in Information Systems and Technology at UKZN achieving a <span class='highlight'>94% first semester aggregate in 2025</span>.",
-        "My journey in technology has be marked by consistent excellence, from achieving <span class='highlight'>1st position</span> at WeThinkCode_ with a 90% aggregate to leading multiple successful projects.",
+        "I am a results-driven <span class='highlight'>Software Engineer in Training</span> specialising in Systems Analysis, Systems Design and Implementation (C#, Java, Python).",
+        "Currently pursuing my BCom in Information Systems and Technology at UKZN, achieving a <span class='highlight'>90% aggregate in 2025</span>.",
+        "My journey is marked by consistent excellence, from achieving <span class='highlight'>1st position</span> at WeThinkCode_ to leading multiple <span class='highlight'>successful projects</span> to graduating with a <span class='highlight'>90%</span> aggregate.",
     ],
     
     stats: [
-        { number: "90%", label: "Academic Average" },
-        { number: "80%+", label: "Project Leadership Score" },
+        { number: "90%", label: "Academic Average In 2025" },
+        { number: "80%+", label: "Project Leadership Average" },
         { number: "1st", label: "Position Learner" },
-        { number: "110+", label: "Hackathon Participants Supported" }
+        { number: "100+", label: "Hackathon Participants Supported" }
     ],
     
     education: [
         {
-            degree: "Bachelor of Commerce in Information Systems and Technology",
+            degree: "BCom in Information Systems and Technology",
             institution: "University of KwaZulu-Natal (UKZN)",
-            date: "2025 - Present",
-            grade: "94% First Semester Aggregate in 2025",
-            description: "Specialising in software development, systems analysis, and technology management."
+            date: "February 2025 - December 2026",
+            grade: "Achieved a 90% Aggregate in 2025",
+            description: "Specialising in software development, systems analysis, systems design and technology management."
         },
         {
-            degree: "Software Development Programme",
+            degree: "Software Engeneering Programme",
             institution: "WeThinkCode_",
-            date: "2023 - 2024",
-            grade: "90% Aggregate",
+            date: "September 2023 - December 2024",
+            grade: "Graduated with a 90% Aggregate",
             description: "Intensive coding bootcamp focusing on practical software development skills and industry best practices."
         }
     ],
     
     experience: [
         {
-            title: "DevOps Intern",
-            company: "Future Foundation",
-            date: "January 2025 - Present",
-            description: "Led a research initiative on FIDO and BLE technology and proposed implementation for internal systems. <br>Streamlined the company's Git workflow. <br>Documented various processes, systems, and configurations. <br>Assisted the DevOps team in the maintenance of software solutions and IT infrastructure. <br>Assisted in the implementation of an RT5 ticketing system to centralise support requests. <br>Assisted in PHP & WordPress application management",
-            skills: ["WordPress", "PHP", "Bootstrap", "Sass", "Docker", "Linux"]
-        },
-        {
-            title: "System Administrator (Volunteer)",
+            title: "System Administrator",
             company: "KZN Tech Horizons",
             date: "February 2025 - Present",
-            description: "Led the tech support for the organisation's first hackathon with 80+ participants. <br>Co-led the tech support for the organisation's first Woman's hackathon with 20+ participants. <br>Managing IT infrastructure and leading tech support.",
+            description: "• Managing IT infrastructure and leading tech support <br>• Led the tech support for the organisation's first hackathon. <br>• Co-led the tech support for the organisation's first Woman's hackathon ",
             skills: ["Tech Support", "Troubleshooting", "Hardware Support", "Problem Solving"]
         },
         {
-            title: "Academic Workshop Mentor (Volunteer)",
+            title: "DevOps Intern",
+            company: "Future Foundation",
+            date: "January 2025 - December 2025",
+            description: "• Led a research initiative on multifactor authentication systems and proposed improvements for internal systems <br>• Streamlined the company's Git workflow <br>• Documented various processes, systems, and configurations <br>• Assisted the DevOps team in the maintenance of software solutions and IT infrastructure",
+            skills: ["WordPress", "PHP", "Bootstrap", "Sass", "Docker", "Linux"]
+        },
+        {
+            title: "Academic Workshop Mentor",
             company: "WeThinkCode_",
             date: "April 2024 - May 2024",
-            description: "Prepared and delivered workshop materials including slides, coding examples and tutorials. <br>Provided ongoing support by monitoring workshops and addressing challenges encountered by peers.",
+            description: "• Prepared and delivered workshop materials including slides, coding examples and tutorials <br>• Provided ongoing support by monitoring workshops and addressing challenges encountered by peers",
             skills: ["Leadership", "Teaching", "Presentation", "Mentoring"]
         }
     ],
@@ -125,8 +125,8 @@ const portfolioData = {
         {
             type: "LinkedIn",
             icon: "fab fa-linkedin",
-            value: "nkosikhona-mlaba-1545a7273",
-            link: "https://www.linkedin.com/in/nkosikhona-mlaba-1545a7273"
+            value: "nkosikhona-mlaba",
+            link: "https://www.linkedin.com/in/nkosikhona-mlaba"
         },
         {
             type: "GitHub", 
@@ -138,7 +138,7 @@ const portfolioData = {
             type: "Portfolio",
             icon: "fas fa-globe",
             value: "nkosimlaba.github.io",
-            link: "https://nkosimlaba.github.io/Portfolio-website"
+            link: "https://nkosimlaba.github.io/"
         }
     ],
     
@@ -146,7 +146,7 @@ const portfolioData = {
         {
             platform: "LinkedIn",
             icon: "fab fa-linkedin-in",
-            url: "https://www.linkedin.com/in/nkosikhona-mlaba-1545a7273"
+            url: "https://www.linkedin.com/in/nkosikhona-mlaba"
         },
         {
             platform: "GitHub",
@@ -156,7 +156,7 @@ const portfolioData = {
         {
             platform: "Portfolio",
             icon: "fas fa-globe",
-            url: "https://nkosimlaba.github.io/Portfolio-website"
+            url: "https://nkosimlaba.github.io/"
         }
     ]
 };
